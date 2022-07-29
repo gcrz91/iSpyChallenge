@@ -9,7 +9,24 @@
         android:id="@+id/navigation_near_me"
         android:name="xyz.blueowl.ispychallenge.ui.near_me.NearMeFragment"
         android:label="@string/title_near_me"
-        tools:layout="@layout/fragment_near_me" />
+        tools:layout="@layout/fragment_near_me">
+        <action android:id="@+id/action_navigation_fragment_near_me_to_navigation_near_me_challenge_details"
+            app:destination="@id/navigation_near_me_challenge_details">
+            <argument
+                android:name="challengeId"
+                app:argType="string"
+                app:nullable="false" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_near_me_challenge_details"
+        android:name="xyz.blueowl.ispychallenge.ui.near_me.NearMeChallengeDetailsFragment">
+        <argument
+            android:name="challengeId"
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_new_challenge"

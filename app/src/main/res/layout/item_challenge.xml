@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/challenge_card_margin_horizontal"
+    android:layout_marginVertical="@dimen/challenge_card_margin_vertical"
+    android:elevation="6dp"
+    app:cardCornerRadius="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_wins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/text_challenge"
+            app:layout_constraintEnd_toStartOf="@id/text_stars"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="1 win" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@id/text_wins"
+            app:layout_constraintEnd_toStartOf="@id/text_distance"
+            app:layout_constraintStart_toEndOf="@id/text_wins"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="5.00 stars" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@id/text_stars"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/text_stars"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="5.32 m" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_challenge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:textAppearance="?textAppearanceHeadline5"
+            app:layout_constraintBottom_toTopOf="@id/text_username"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_wins"
+            app:layout_constraintWidth_percent="1"
+            tools:text="Discovered by Juan Manuel de Ayala in 1775, this San Francisco Bay landmark was once occupied by Native Americans to protest federal policies related to American Indians." />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_challenge"
+            tools:text="by: redgorilla5422" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

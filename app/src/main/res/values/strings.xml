@@ -5,4 +5,9 @@
     <string name="title_data_browser">Data Browser</string>
     <string name="header_attributes">ATTRIBUTES</string>
     <string name="header_relationships">RELATIONSHIPS</string>
+
+    <string name="challenge_wins">%s wins</string>
+    <string name="challenge_stars">%.2f stars</string>
+    <string name="challenge_miles">%.2f m</string>
+    <string name="challenge_by_username">by %s</string>
 </resources>

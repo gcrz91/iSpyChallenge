@@ -13,11 +13,14 @@
         <entry key="app/src/main/res/layout/fragment_match.xml" value="0.5192708333333333" />
         <entry key="app/src/main/res/layout/fragment_matches.xml" value="0.5192708333333333" />
         <entry key="app/src/main/res/layout/fragment_near_me.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_new_challenge.xml" value="0.25679347826086957" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.3591485507246377" />
         <entry key="app/src/main/res/layout/fragment_ratings.xml" value="0.5192708333333333" />
         <entry key="app/src/main/res/layout/fragment_user.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/item_challenge.xml" value="0.25679347826086957" />
         <entry key="app/src/main/res/layout/item_header.xml" value="0.5192708333333333" />
         <entry key="app/src/main/res/layout/item_header_body.xml" value="0.5192708333333333" />
+        <entry key="app/src/main/res/layout/item_header_label.xml" value="0.25679347826086957" />
         <entry key="app/src/main/res/layout/item_image_text_chevron.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_text_chevron.xml" value="0.25253292806484295" />
         <entry key="app/src/main/res/layout/item_user.xml" value="0.33689601732336966" />
